@@ -1,0 +1,76 @@
+:root {
+    --one: #7209b7; 
+    --two:#f72585 ; 
+  }
+.violet{
+    color: var(--one);
+}
+.pink{
+    color:var(--two)
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+body{
+    /* background-color: rgba(0, 0, 0, 0.929);
+    color: white; */
+}
+.heading{
+    color:var(--one);
+}
+.favicon img{
+    height:4em;
+}
+.nav-link {
+    color:var(--one);
+}
+.nav-link:hover,#underline{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color:var(--one);
+}
+#login{
+    border:2px solid var(--one);
+    color:var(--one);
+}
+#login:hover{
+    background-color: var(--one);
+    color:white;
+}
+#signup{
+    border:2px solid var(--two);
+    color:var(--two);
+}
+#signup:hover{
+    background-color: var(--two);
+    color:white;
+}
+#explore{
+    background-color: var(--one);
+    color:white;
+    border:none;
+}
+#join{
+    background-color: var(--two);
+    color:white;
+    border:none;
+}
+.feature{
+    border:1px solid rgba(0, 0, 0, 0.429);
+    /* margin-right:5px; */
+}
+
+.card-text{
+    font-size: 14px;
+    font-weight: 700;
+}
